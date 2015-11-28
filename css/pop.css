@@ -1,0 +1,194 @@
+header {
+	background: #000;
+	width:1050px;
+	height: 80px;
+	top: 0;
+	margin: 0 auto;
+}
+
+nav ul{
+	float: right;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul{
+	content:"";
+	clear: both;
+	display: block;
+	right:5%;
+}
+nav ul li:hover{
+	background: gray;
+}
+
+nav ul ul{
+	display: none;
+	background: #5f6975;
+	position: absolute;
+	top:100%;
+	float: left;
+}
+nav ul li:hover > ul{
+	display: block;
+	font-family:Helvetica Rounded, Arial Rounded MT Bold,,Arial,sans-serif;
+}
+nav ul ul li{
+	float: none;
+	border-top: 1px solid #ddf;
+	border-bottom: 1px solid #eef;
+	position: relative;
+}
+
+nav ul ul li a{
+	padding: 15px 20px;
+	color:#fff;
+}
+
+
+
+#Boxheader{
+	background-color: black;
+	width: 535px;
+	height: 60px;
+	float:right;
+
+}
+
+#Boxheader a{
+	color:#fff;
+
+}
+#logo{
+	float:left;
+	text-decoration: none;
+	font-family: Cooper std, Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+}
+body{
+background-color: #ebecee;
+font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+}
+
+#lists li {
+	background-color: #fff;
+	color: #000;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	font-size: 14px;
+	letter-spacing: .05em;
+	list-style-type: none;
+	height: 90px;
+}
+
+#lists li {
+		font-family:Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+		font-size: 25px;
+}
+	#lists{
+	width: 1050px;
+	margin: 0 auto;
+	}
+
+.idit {
+	background-image: url("../image/app_edit.jpg");
+	font-size:25px;
+	background-position:  right;
+	background-repeat: no-repeat;
+}
+
+#alertBox{
+	height: 90px;
+	width:1050px;
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#alertBoxin{
+	padding-top:20px;
+	margin:0 auto;
+	width: 300px;
+	height: 50px;
+	background-color:#fff;
+}
+
+.LButton {
+	background-color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-size:18px;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	display: inline-block;
+	float:left;
+}
+
+.RButton {
+	background-color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-size:18px;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	display: inline-block;
+	float:left;
+}
+
+.RButton, .LButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #ebecee 5%, #ebecee 100%);
+	background:-webkit-linear-gradient(top, #ebecee 5%, #ebecee 100%);
+	background:-o-linear-gradient(top, #ebecee 5%, #ebecee 100%);
+	background:-ms-linear-gradient(top, #ebecee 5%, #ebecee 100%);
+	background:linear-gradient(to bottom, #ebecee 5%, #ebecee 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+
+#ContainerInput{
+
+	width: 1050px;
+	height: 90px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top:35px;
+
+}
+
+#search-text-input{
+    float:left;
+    height:90px;
+    width:974px;
+    background-color: white;
+}
+  
+#button-holder{
+    background-color:#f1f1f1;
+    cursor:pointer;
+    float:left;
+    height:95px;
+    text-align:center;
+    width:70px;
+    top:0;
+}
+
+#button-holder img{
+    margin:4px;
+    width:20px; 
+}
